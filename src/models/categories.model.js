@@ -10,8 +10,9 @@ const Categories = db.define('categories', {
   },
   name:{
     type: DataTypes.STRING,
-    allowNull: false
-  },
+    allowNull: false,
+    unique: true
+  }
   
 }, {
   timestamps: false //Avoids sequelize to add columns createdAt and updatedAt
