@@ -18,7 +18,7 @@ const registerUser = (req, res) => {
       password: 'String',
       phone: '+59174125896',
       birthday: 'YYYY/MM/DD'
-    }})
+    }}) 
   }
 }
 
