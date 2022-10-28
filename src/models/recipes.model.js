@@ -1,6 +1,6 @@
+const { DataTypes } = require('sequelize')
 const Users = require('./users.model')
 const Categories = require('./categories.model')
-const { DataTypes } = require('sequelize')
 
 const db = require('..utils/database')
 
